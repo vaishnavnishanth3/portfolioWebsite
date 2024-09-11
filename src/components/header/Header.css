@@ -1,0 +1,59 @@
+.title {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 30px;
+    height: 10vh;
+    user-select: none;
+}
+
+.title-name:hover {
+    color: rgb(150, 248, 255);
+    border-bottom: 2px solid rgb(150, 248, 255);
+    border-radius: 30px;
+    padding: 0 10px 10px 10px;
+    transition: linear 0.2s;
+}
+
+.title-name{
+    transition: linear 0.2s;
+}
+
+.nav > a {
+    text-decoration: none;
+    color: White;
+    font-weight: 15px;
+}
+
+.nav > a :hover {
+    color: rgb(150, 248, 255);
+}
+
+.nav li {
+    color: white;
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    user-select: none;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    title-text {
+        font-size: 2rem;
+    }
+}
+

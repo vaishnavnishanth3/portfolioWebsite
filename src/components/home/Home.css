@@ -1,0 +1,13 @@
+.home {
+    background: rgba(255,255,255,0.2);
+    height: 10vh;
+    color: white;
+    margin: 50px 30px;
+    border-radius: 30px;
+}
+
+.home-title {
+    color: #ffffff;
+    padding: 20px;
+}
+
